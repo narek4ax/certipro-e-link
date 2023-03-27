@@ -1,0 +1,95 @@
+@media screen and (max-width: 849px) {
+    .woocommerce-column--billing-address.col-1,
+    .woocommerce-column--shipping-address.col-2,
+    .sage_additional_info .col{
+        display: inline-block;
+        max-width: 49%;
+        width: 100%;
+        vertical-align: top;
+    }
+    .u-column2.col-2.woocommerce-Address,
+    .u-column1.col-1.woocommerce-Address{
+        display: inline-block;
+        max-width: 32%;
+        width: 100%;
+        vertical-align: top;
+    }
+    .woocommerce-column--billing-address.col-1,
+    .sage_additional_info .col:first-child,
+    .u-column1.col-1.woocommerce-Address{
+        margin-right: 1%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .sage-table th, .sage-table td, .sage-invoices-table td,.sage-orders-table td{
+        width: 100%;
+        text-align: left !important;
+        display: block !important;
+    }
+    .sage-table, .sage-invoices-table, .sage-orders-table{
+      border-collapse: collapse;
+    }
+    .sage-table tr, .sage-invoices-table tr,.sage-orders-table tr{
+        border-bottom: 11px solid #ececec;
+    }
+    .cp_invoices_div .woocommerce-column--billing-address.col-1,
+    .cp_invoices_div .woocommerce-column--shipping-address.col-2{
+        max-width: 100%;
+        width: 100%;
+        margin-right: 0;
+    }
+    .sage-table tr:nth-child(odd){
+        background: #fff;
+    }
+    .sage-table tr:nth-child(even){
+        background: #fff;
+    }
+    .sage-table tr:nth-child(even) td:nth-child(even),
+    .sage-table tr:nth-child(odd) td:nth-child(even) {
+        background: #ececec;
+    }
+    .sage-table tr:nth-child(odd) td:nth-child(odd),
+    .sage-table tr:nth-child(even)  td:nth-child(odd) {
+        background: #fff;
+    }
+    .sage-table tr td.bt-hide:before{
+            content: attr(data-th) !important;
+    }
+}
+@media screen and (max-width: 650px) {
+    #invoices-search-form div.invoices-search input,
+    #order-block-search-form .search,
+    #invoices-search-form div.invoices-search,
+    #invoices-search-form>div, #sorders-search-block div{
+        max-width: 100% !important;
+        width: 100%;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 450px) {
+    .woocommerce-column--billing-address.col-1,
+    .woocommerce-column--shipping-address.col-2{
+        max-width: 100%;
+        width: 100%;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 400px) {
+    .sage_additional_info .col{
+        display: inline-block;
+        max-width: 100%;
+        width: 100%;
+        vertical-align: top;
+    }
+    .u-column2.col-2.woocommerce-Address,
+    .u-column1.col-1.woocommerce-Address{
+        display: inline-block;
+        max-width: 100%;
+        width: 100%;
+        vertical-align: top;
+    }
+    .sage_additional_info .col:first-child,
+    .u-column1.col-1.woocommerce-Address{
+        margin-right: 0;
+    }
+}

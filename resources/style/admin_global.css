@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+.toplevel_page_certipro-e-link img,
+#toplevel_page_certipro-e-link .wp-menu-image img {
+    width: 24px;
+    margin: 0;
+    padding-top: 6px;
+}
+
+.cplink_response_wrapper {
+    background: rgba(255,255,255,0.4);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    display: none;
+}
+.cplink_response {
+    position: fixed;
+    top: 40px;
+    z-index: 9;
+    background: #E84754 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #35353533;
+    border-radius: 4px;
+    margin: 10px auto;
+    padding: 20px;
+    align-items: center;
+    color: #FFFFEA;
+    font-size: 17px;
+}
+.cplink_response_txt {
+    float: left;
+    margin: 0 20px;
+    font-size: 16px;
+    max-height: 70vh;
+    overflow: auto;
+}
+.cplink_response i.dashicons {
+    float: left;
+    color: #000000;
+    font-size: 22px;
+}
+.result_icon .cplink_response i.dashicons {
+
+}
+span.cplink_close_response {
+    color: #000000;
+    font-weight: bold;
+    float: left;
+    cursor: pointer;
+}
+
+.cplink_response.cplink_resp_success,
+.cplink_response .cplink_resp_success {
+    background-color: #01CDCA;
+}
+.cplink_response.cplink_resp_loading,
+.cplink_response .cplink_resp_loading {
+    color: #000000;
+    background-color: #FFED66;
+}
+.cplink_response.cplink_resp_error,
+.cplink_response .cplink_resp_error {
+    background-color: #E84754;
+}
+.cplink_response.export_response .cplink_response_txt{
+    max-height: 277px;
+    overflow-y: auto;
+}
+
+.sage-orders-table {
+    max-width: 800px;
+}
